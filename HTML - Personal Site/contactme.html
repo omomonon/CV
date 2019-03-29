@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nomsa's Personal Site - Contact Me</title>
+</head>
+<style>
+  body {
+    background-color: lightcyan
+  }
+  h1 {
+    color: navy;
+  }
+  hr {
+    background-color: lightcyan;
+    border-top-style: dotted;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-width: 5px;
+    border-color: teal;
+
+    height: 0px;
+    width: 8%;
+  }
+</style>
+<body>
+  <h1>Contact Me</h1>
+  <p>
+    Email: <a href="mailto:nmgamedze@gmail.com">nmgamedze@gmail.com</a>
+  </p>
+  <hr size=3 />
+  <form action="mailto:nmgamedze@gmail.com" method="post" enctype="text/plain">
+    <table cellspacing=10>
+      <tr>
+        <td>
+          <label>Your Name:</label>
+        </td>
+        <td>
+          <input type="text" name="yourName" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Email:</label>
+        </td>
+        <td>
+          <input type="email" name="yourEmail" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Your Message:</label>
+        </td>
+        <td>
+          <textarea name="yourMessage" rows="10" cols="30"></textarea>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <input type="submit" name="">
+  </form>
+  <a href="index.html">Back to Homepage</a>
+</body>
+
+</html>
