@@ -1,0 +1,51 @@
+a:hover {
+  color: orange;
+}
+
+body {
+  background-color: lightcyan;
+  color: black;
+}
+
+hr {
+  border-color: teal;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: lightseagreen;
+}
+
+h2 {
+  color: lightseagreen;
+  font-size: 1.7em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  color: lightseagreen;
+  font-style: italic;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: center;
+}
+div {
+  text-align: center
+}
+
+img {
+  border-radius: 100%;
+  height: 110px;
+}
